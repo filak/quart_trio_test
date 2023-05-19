@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {"name":"Python: Quart",
+        "type":"python",
+        "request":"launch",
+        "program":"quart_trio_app.py",
+        //"program":"quart-trio-srv.py",
+        "justMyCode": false,
+        "env": {
+           "QUART_ENV": "development",
+           "QUART_DEBUG": "1"
+        },        
+        "args": [
+        ],        
+        "console":"integratedTerminal"}
+    ]
+}
